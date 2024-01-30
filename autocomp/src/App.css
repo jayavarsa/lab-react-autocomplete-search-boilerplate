@@ -1,0 +1,35 @@
+.main_container{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.conten_container{
+  /* border: 1px solid green; */
+}
+
+.main_container input{
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.main_container button{
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: orange;
+  font-size: large;
+  color: aliceblue;
+  font-weight: 800;
+}
+
+
+.hide{
+  display: none;
+}
